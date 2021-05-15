@@ -1,0 +1,25 @@
+.media {
+    display: flex;
+    align-items: flex-start;
+    max-width:100vh;
+    padding:0px 20px 0px 10px;
+    background-color: gainsboro;
+}
+.media-body {
+    flex: 1;
+}
+.media-object{
+    margin: 19px 10px 10px 10px;
+    background-color: #bdbdbd;
+    width: 70px; 
+    order:1;
+}
+.media-heading{
+    color:white;    
+    padding:10px;
+    background-color: #bdbdbd;
+}
+p{
+    background-color: #bdbdbd;
+    padding:10px;
+}
