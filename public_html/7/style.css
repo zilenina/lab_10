@@ -1,0 +1,14 @@
+.form {
+ display: flex;
+ height:40px;
+ margin:10px;
+}
+.form__field {
+    flex: 1;
+}
+.form__item{
+    font-size:20px;
+}
+.form__item-2{
+    order:-1;
+}
