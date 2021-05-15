@@ -1,0 +1,38 @@
+.ssrow {
+    display: flex;
+    background-color: #eeeeee;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.row_cell {
+    flex: 1;
+    background-color: #d3d3d3;
+    padding:10px;
+    margin:5px;
+}
+.row_cell--2 {
+    flex: 2;
+}
+.row_cell--3 {
+    flex: 3;
+}
+.row_cell--top {
+    align-self: flex-start;
+}
+.row_cell--bottom {
+    align-self: flex-end;
+}
+.row_cell--center {
+    align-self: center;
+}
+.row--top {
+    align-items: flex-start;
+}
+.row--center {
+    align-items: center;
+}
+.row--bottom {
+   align-items: flex-end;
+}
